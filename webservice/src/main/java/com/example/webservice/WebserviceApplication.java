@@ -1,13 +1,13 @@
-package com.example.springcloudnacos;
+package com.example.webservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringCloudNacosApplication {
+public class WebserviceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudNacosApplication.class, args);
+        SpringApplication.run(WebserviceApplication.class, args);
     }
 
 }
