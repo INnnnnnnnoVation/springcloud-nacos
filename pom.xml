@@ -20,7 +20,8 @@
 	<modules>
 		<module>webservice</module>
 		<module>userservice</module>
-<!--		<module>feign-client-util</module>-->
+		<module>feign-client-util</module>
+		<module>gateway-util</module>
 	</modules>
 	<dependencies>
 		<dependency>
