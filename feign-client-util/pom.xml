@@ -9,35 +9,28 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springcloud-nacos</artifactId>
+	<artifactId>feign-client-util</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springcloud-nacos</name>
-	<description>springcloud-nacos</description>
+	<name>feign-client-util</name>
+	<description>feign-client-util</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
-	<packaging>pom</packaging>
-	<modules>
-		<module>webservice</module>
-		<module>userservice</module>
-<!--		<module>feign-client-util</module>-->
-	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-			<version>2.3.7.RELEASE</version>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.alibaba.cloud</groupId>
-			<artifactId>spring-cloud-alibaba-dependencies</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
 			<version>2.2.2.RELEASE</version>
-			<type>pom</type>
-			<scope>import</scope>
 		</dependency>
 	</dependencies>
 
