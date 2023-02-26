@@ -22,6 +22,8 @@
 		<module>userservice</module>
 		<module>feign-client-util</module>
 		<module>gateway-util</module>
+		<module>mq-publisher</module>
+		<module>mq-consumer</module>
 	</modules>
 	<dependencies>
 		<dependency>
@@ -39,6 +41,10 @@
 			<version>2.2.2.RELEASE</version>
 			<type>pom</type>
 			<scope>import</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 	</dependencies>
 
